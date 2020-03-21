@@ -244,7 +244,7 @@ gallery image code
   
 .people img {
     filter: blur(0em);
-    transition: filter 3s;
+    transition: 3s;
     padding: 5px;
 }
  
