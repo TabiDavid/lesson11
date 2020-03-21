@@ -103,7 +103,7 @@ nav {
     display: block;
 }  
 main{
-    background-color: rgb(139, 167, 218);
+    background-color: rgb(231, 210, 210);
     padding: 8px;
     width: 80%;
     margin: auto;
@@ -157,11 +157,7 @@ main{
         
     }
     
-    #women, #map {
-        width: 250px;
-        height: 300px;
-
-    }
+   
     footer {
         max-width: 900px;
         margin: 0 auto;
