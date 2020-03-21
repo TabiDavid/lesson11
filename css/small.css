@@ -167,3 +167,38 @@ main{
         margin: 0 auto;
     }
     
+    /* Home CSS*/
+
+    .townsection {
+
+        display: block;
+        margin: auto;
+        border: 1px black solid;
+        background-color: rgb(235, 220, 137);
+        max-width: 80%;
+        padding: 10px;
+        border-radius: 6px;
+    }
+    
+    .cards section:hover {
+        background-color: whitesmoke;
+    }
+    
+    
+    h3 {
+        text-align: center;
+    }
+    
+    .townp {
+        text-align: center;
+        font-family: 'Roboto' ;
+        
+    }
+    
+    .townimage {
+        display: block;
+        width: 85%;
+        height: 300px;
+        margin: 10px auto;
+        box-shadow: 0 0 10px #1b1a1d;
+    }

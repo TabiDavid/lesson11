@@ -59,7 +59,21 @@ td, th {
     grid-template-columns: 1fr;
 }
 
+/*home CSS */
+.townsection {
+    display: flex;
+    width: 95%;
+    margin: auto;
+    padding: 5px 5px;
+    margin-bottom: 20px;
+}
+.townimage {
+    width: 300px;
+}
 
+section:nth-child(odd) {
+	flex-direction: row-reverse;
+}
     
 }
     
