@@ -59,7 +59,7 @@ color: rgb(54, 10, 10);
   
 .people img {
     filter: blur(0em);
-    transition: filter 3s;
+    transition: 3s;
     padding: 5px;
 }
 
@@ -237,14 +237,4 @@ gallery image code
     text-align: center;
 }
 
-
-.people img[data-src] {
-    filter: blur(0.2em);
-  }
-  
-.people img {
-    filter: blur(0em);
-    transition: 3s;
-    padding: 5px;
-}
  
