@@ -202,3 +202,27 @@ main{
         margin: 10px auto;
         box-shadow: 0 0 10px #1b1a1d;
     }
+/* Storm center CSS*/
+
+legend {
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    font-size: large;
+}
+
+input {
+    padding: 5px;
+    margin: 4px;
+}
+.button {
+text-align: center;
+
+}
+
+.thank {
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: large;
+}
+ 

@@ -74,6 +74,10 @@ td, th {
 section:nth-child(odd) {
 	flex-direction: row-reverse;
 }
+
+
+
+
     
 }
     
