@@ -225,4 +225,31 @@ text-align: center;
     font-family: 'Roboto';
     font-size: large;
 }
+
+
+/*
+gallery image code
+*/
+main {
+    background-color: grey;
+    padding: 5px;
+    
+}
+.containpeople {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+
+
+.people img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+.people img {
+    filter: blur(0em);
+    transition: filter 3s;
+    padding: 5px;
+}
  

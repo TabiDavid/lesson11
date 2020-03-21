@@ -15,4 +15,12 @@
         grid-gap: 20px;
     }
 
+    /*gallery CSS*/
+    
+    .containpeople {
+        max-width: 1024px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+       
+
 }
