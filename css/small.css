@@ -239,5 +239,19 @@ gallery image code
    
     margin: auto;
 }
+#events {
+    
+    background-color: teal;
+    margin: 20px;
+    padding: 20px;
+    display: grid;
+    line-height: 2em;
+}
+
+.eventdiv > div, h4, li{
+    text-align: center;
+    list-style-type: none;
+}
+
 
  
