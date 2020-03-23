@@ -1,46 +1,6 @@
-function getUpdate(){
-    var myday = new Date();
-    var dayOfWeek = myday.getDay();
-    var month = myday.getMonth();
-    var dayOfMonth = myday.getDate();
-    var year = myday.getFullYear();
-    
-var Months = ['January', 'Febrary', 'March', 'April', 'May', 'Jun', 'July',
-'August', 'September', 'October', 'November', 'December'];
-var weekdays = ['Sunday', 'Moday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+//Javascript from cards//
 
-
-    text = weekdays[dayOfWeek] + ", " + dayOfMonth + " " + Months[month] + " " + year;
-    
-    
-    document.getElementById('outputDiv').innerHTML = text;
-    }
-
-
-
-    function toggleMenu() {
-        document.querySelector(".navigation").classList.toggle("responsive");
-      }
-
-      function pancakeD(){
-        var dayOfWeek = new Date().getDay();
-        var weekdays = ['Sunday', 'Moday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-        
-        if(weekdays[dayOfWeek] == weekdays[5]){
-        document.getElementById("pancake").style.display = "flex";
-        }
-        else {
-            document.getElementById("pancake").style.display = "none";
-        }
-        
-        }
-        
-        WebFont.load({ google: { families: ['Trade Winds', 'Roboto'] } });
-
-
-        //Javascript from cards//
-
-        const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 
 fetch(requestURL)
   .then(function (response) {
