@@ -42,6 +42,15 @@ font-family: 'Trade Winds';
 color: rgb(54, 10, 10);
 }
 
+.texto {
+    font-family: 'Roboto' ;
+    color: honeydew;
+}
+
+.social {
+    width: 20px;
+    height: 20px;
+}
 
     footer div{
 
